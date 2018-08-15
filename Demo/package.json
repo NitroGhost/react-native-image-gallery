@@ -11,6 +11,7 @@
   "dependencies": {
     "react": "16.3.1",
     "react-native": "0.55.4",
+    "react-native-fast-image": "4.0.14",
     "react-native-image-gallery": "file:../"
   },
   "devDependencies": {

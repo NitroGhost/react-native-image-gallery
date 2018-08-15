@@ -1,7 +1,8 @@
 import React, { PureComponent } from 'react';
-import { View, Text, Image, ViewPropTypes } from 'react-native';
+import { Image as Img, View, Text, ViewPropTypes } from 'react-native';
 import PropTypes from 'prop-types';
 import ViewTransformer from '../ViewTransformer';
+import Image from "react-native-fast-image";
 
 export default class TransformableImage extends PureComponent {
     static propTypes = {
@@ -108,7 +109,7 @@ export default class TransformableImage extends PureComponent {
         }
 
         if (source && source.uri) {
-            Image.getSize(
+            Img.getSize(
                 source.uri,
                 (width, height) => {
                     if (width && height) {
