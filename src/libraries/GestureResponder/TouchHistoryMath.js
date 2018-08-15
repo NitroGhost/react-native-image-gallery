@@ -1,7 +1,3 @@
-/**
- * @providesModule TouchHistoryMath
- */
-
 'use strict';
 
 var TouchHistoryMath = {

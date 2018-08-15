@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { View, Text, ActivityIndicator } from 'react-native';
+import { View, Text } from 'react-native';
 import Gallery from 'react-native-image-gallery';
 
 export default class DemoGallery extends Component {
-
     constructor (props) {
         super(props);
         this.state = {
